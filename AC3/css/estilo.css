@@ -1,0 +1,47 @@
+table{
+    font-family: "Arial";
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px;
+}
+
+
+
+h1{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    text-decoration: underline;
+}
+
+.vermelho{
+    color: red;
+}
+
+.verde{
+    color: lightgreen;
+}
+
+table.borda {
+    border-collapse: collapse;
+}
+
+table.borda tr td {
+    border:1px solid black ; 
+}
+
+li{
+    font-weight: bold;
+}
+
+

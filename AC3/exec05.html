@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>AC2 - Exercicio 5</title>
+</head>
+<body>
+    <table width = 800 align="center" border="2"> 
+        <tr>
+            <td>
+                <h1>Cadastro de Editora</h1>
+                <form action="exec05_enviado.html" id="cadastro">
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" name="nome" id="nome" size="50" maxlength="80">
+                    <br>
+                    <label for="endereco"><strong>Endereço:</strong></label>
+                    <input type="text" name="endereco" id="endereco" size="50" maxlength="100">
+                    <br>
+                    <label for="numero"><strong>Número:</strong></label>
+                    <input type="text" name="numero" id="numero" size="10" maxlength="10">
+                    <br>
+                    <label for="complemento"><strong>Complemento:</strong></label>
+                    <input type="text" name="complemento" id="complemento" size="10" maxlengt ="20">
+                    <label for="bairro"><strong>Bairro:</strong></label>
+                    <input type="text" name="bairro" id="bairro" size="20" maxlengt ="30">
+                    <br>
+                    <label for="cidade"><strong>Cidade:</strong></label>
+                    <input type="text" name="cidade" id="cidade" size="50" maxlengt ="50">
+                    <br>
+                    <label for="uf"><strong>UF:</strong></label>
+                    <select name="uf"> 
+                        <option value="estado">Selecione o Estado</option> 
+                        <option value="ac">Acre</option> 
+                        <option value="al">Alagoas</option> 
+                        <option value="am">Amazonas</option> 
+                        <option value="ap">Amapá</option> 
+                        <option value="ba">Bahia</option> 
+                        <option value="ce">Ceará</option> 
+                        <option value="df">Distrito Federal</option> 
+                        <option value="es">Espírito Santo</option> 
+                        <option value="go">Goiás</option> 
+                        <option value="ma">Maranhão</option> 
+                        <option value="mt">Mato Grosso</option> 
+                        <option value="ms">Mato Grosso do Sul</option> 
+                        <option value="mg">Minas Gerais</option> 
+                        <option value="pa">Pará</option> 
+                        <option value="pb">Paraíba</option> 
+                        <option value="pr">Paraná</option> 
+                        <option value="pe">Pernambuco</option> 
+                        <option value="pi">Piauí</option> 
+                        <option value="rj">Rio de Janeiro</option> 
+                        <option value="rn">Rio Grande do Norte</option> 
+                        <option value="ro">Rondônia</option> 
+                        <option value="rs">Rio Grande do Sul</option> 
+                        <option value="rr">Roraima</option> 
+                        <option value="sc">Santa Catarina</option> 
+                        <option value="se">Sergipe</option> 
+                        <option value="sp">São Paulo</option> 
+                        <option value="to">Tocantins</option> 
+                    </select>
+                    <br>
+                    <label for="cnpj"><strong>CNPJ:</strong></label>
+                    <input type="text" name="cnpj" id="cnpj" size="30" maxlengt ="50">                    
+                    <br>
+                    <label for="site"><strong>Site:</strong></label>
+                    <input type="text" name="site" id="site" size="50" maxlengt ="50">                    
+                    <br>
+                    <label for="email"><strong>E-mail:</strong></label>
+                    <input type="text" name="email" id="email" size="50" maxlengt ="50">                    
+                    <br>
+                    <label for="contato"><strong>Nome do Contato:</strong></label>
+                    <input type="text" name="contato" id="contato" size="20" maxlengt ="20">  
+                    <label for="telefone"><strong>Telefone:</strong></label>
+                    <input type="text" name="telefone" id="telefone" size="20" maxlengt ="20">  
+                    <br>
+                    <br>
+                    <label for="genero"><strong>Gênero da publicação da editora:</strong></label>
+                    <br>
+                    <input type="checkbox" value="policial" name="genero">Policial
+                    <br>
+                    <input type="checkbox" value="ficção" name="genero">Ficção
+                    <br>
+                    <input type="checkbox" value="Não Ficção" name="genero">Não Ficção
+                    <br>
+                    <input type="checkbox" value="Religioso" name="genero">Religioso
+                    <br>
+                    <input type="checkbox" value="esporte" name="genero">Esporte
+                    <br>
+                    <input type="checkbox" value="profissional" name="genero">Profissional
+                    <br>
+                    <input type="checkbox" value="outros" name="genero">Outros
+                    <input type="text" name="outros" id="outros" size="15" maxlengt ="15">       
+                    <br>              
+                </form>
+                <button type="submit" form="cadastro" value="enviar">Enviar</button>
+                <br>
+                <br>
+                <a href="index.html">Voltar</a>
+            </td>
+        </tr>
+    </table>
+</html>
