@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <title>TECWEB - AC4</title>
+    </head>
+
+    <body>
+        <div class="fundo">
+            <div class="cabecalho">
+                Cadastro de Aluno 
+            </div>
+            <div class="corpo">
+                <form action="enviado.html" id="cadastro">
+                    <label for="fullname" class="label">Nome Completo</label><br>
+                    <input class="campos" type="text" name="fullname" id="fullname" maxlength="20"><br>
+                    
+                    <label for="address" class="label">Endereço</label><br>
+                    <input class="campos" type="text" name="address" id="address" maxlength="30"><br>
+                          
+                    <label for="city" class="label">Cidade</label><br>
+                    <input class="campos" type="text" name="fullname" id="city"><br>
+                         
+                    <label for="uf" class="label">UF</label><br>
+                    <select name="uf"> 
+                        <option value="estado">Selecione o Estado</option> 
+                        <option value="ac">Acre</option> 
+                        <option value="al">Alagoas</option> 
+                        <option value="am">Amazonas</option> 
+                        <option value="ap">Amapá</option> 
+                        <option value="ba">Bahia</option> 
+                        <option value="ce">Ceará</option> 
+                        <option value="df">Distrito Federal</option> 
+                        <option value="es">Espírito Santo</option> 
+                        <option value="go">Goiás</option> 
+                        <option value="ma">Maranhão</option> 
+                        <option value="mt">Mato Grosso</option> 
+                        <option value="ms">Mato Grosso do Sul</option> 
+                        <option value="mg">Minas Gerais</option> 
+                        <option value="pa">Pará</option> 
+                        <option value="pb">Paraíba</option> 
+                        <option value="pr">Paraná</option> 
+                        <option value="pe">Pernambuco</option> 
+                        <option value="pi">Piauí</option> 
+                        <option value="rj">Rio de Janeiro</option> 
+                        <option value="rn">Rio Grande do Norte</option> 
+                        <option value="ro">Rondônia</option> 
+                        <option value="rs">Rio Grande do Sul</option> 
+                        <option value="rr">Roraima</option> 
+                        <option value="sc">Santa Catarina</option> 
+                        <option value="se">Sergipe</option> 
+                        <option value="sp">São Paulo</option> 
+                        <option value="to">Tocantins</option> 
+                    </select><br>
+                          
+                    <label for="rg" class="label">RG</label><br>
+                    <input class="campos" type="text" name="rg" id="rg"><br>
+                          
+                    <label for="cpf" class="label">CPF</label><br>
+                    <input class="campos" type="text" name="cpf" id="cpf" maxlength="11" placeholder="Insira somente números"><br>
+                          
+                    <label for="email" class="label">E-mail</label><br>
+                    <input class="campos" type="email" name="email" id="email" maxlength="20"><br>
+                        
+                    <p>Redes sociais</p>
+                            
+                    <input class="" type="checkbox" name="facebook" id="facebook">
+                    <label for="facebook" class="">Facebook</label><br>
+                                                  
+                    <input class="" type="checkbox" name="inst" id="inst">
+                    <label for="inst" class="">Instagram</label><br>
+                          
+                    <input class="" type="checkbox" name="twitter" id="twitter">
+                    <label for="twitter" class="">Twitter</label><br>
+
+                    <input class="" type="checkbox" name="WhatsApp" id="WhatsApp">
+                    <label for="WhatsApp" class="">WhatsApp</label><br>
+
+                    <input class="" type="checkbox" name="Outros" id="Outros">
+                    <label for="Outros" class="">Outros</label>
+                    <input class="campos" type="text" name="Outros" id="Outros"><br>
+
+                    <p>Curso</p>
+                    <input class="campos2" type="radio" name="curso" id="ads">
+                    <label for="ads" class="label">Análise e Desenvolvimento de Sistemas</label><br>
+
+                    <input class="campos2" type="radio" name="curso" id="redes">
+                    <label for="redes" class="label">Redes</label><br>
+                          
+                    <input class="campos2" type="radio" name="curso" id="si">
+                    <label for="si" class="label">Sistemas de Informação</label><br>
+                                                                                              
+                    <label for="desc"><p>Motivo da escolha</p></label><br>
+                    <textarea id="desc" maxlength="100"></textarea><br>
+                    <button>Enviar!</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
